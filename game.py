@@ -13,6 +13,11 @@ def main():
     goblin = Goblin("Dingleberry")
 
     print(f"{goblin.name} enters the arena with {goblin.health}hp.")
+
+ goblin = Goblin("DingleThang")
+
+    print(f"{goblinTwo.name} enters the arena with {goblin.health}hp.")
+
     print("But no hero has answered the call... yet.")
 
 
