@@ -7,7 +7,7 @@ class Goblin:
     def __init__(self, name):
         self.name = name
         self.health = 100
-        self.attack_power = 15
+        self.attack_power = 20
 
     def attack(self):
         """Return a random amount of damage."""
@@ -21,3 +21,8 @@ class Goblin:
     def is_alive(self):
         """Return True while the goblin has health remaining."""
         return self.health > 0
+
+    #def FirstGoblinsTurn(self):
+       # GoblinOnesattackpower = goblin.attack()
+       # print("Magnus's Goblin attacks the hero and...")
+       # GothamChess.take_damage(GoblinOnesattackpower)
